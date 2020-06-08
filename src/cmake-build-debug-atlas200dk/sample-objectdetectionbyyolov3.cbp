@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sample-objectdetectionbyyolov3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Host">
+				<Option output="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/outputs/libHost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/."/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/home/pc/ascend_ddk/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/software/Atlas_Tools/DDR/hiaiengine/inc"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/common"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_inference"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 Host"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Host/fast">
+				<Option output="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/outputs/libHost.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/."/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/home/pc/ascend_ddk/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/software/Atlas_Tools/DDR/hiaiengine/inc"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/common"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_inference"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 Host/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/outputs/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../../outputs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/."/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/home/pc/ascend_ddk/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/software/Atlas_Tools/DDR/hiaiengine/inc"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/common"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_inference"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/outputs/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../../outputs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/."/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/home/pc/ascend_ddk/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/software/Atlas_Tools/DDR/hiaiengine/inc"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/common"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_inference"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AtlasApi">
+				<Option output="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/outputs/libAtlasApi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/."/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/home/pc/ascend_ddk/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/software/Atlas_Tools/DDR/hiaiengine/inc"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/common"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_inference"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 AtlasApi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AtlasApi/fast">
+				<Option output="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/outputs/libAtlasApi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/."/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/home/pc/ascend_ddk/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/software/Atlas_Tools/DDR/hiaiengine/inc"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/common"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_inference"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 AtlasApi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/Main.cpp">
+			<Option target="main"/>
+			<Option target="AtlasApi"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/Main.h">
+			<Option target="main"/>
+			<Option target="AtlasApi"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image/general_image.cpp">
+			<Option target="Host"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_image/general_image.h">
+			<Option target="Host"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post/general_post.cpp">
+			<Option target="Host"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/general_post/general_post.h">
+			<Option target="Host"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/test_main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,9 @@
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/install/strip.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/install/local.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/Host.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/main.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/edit_cache.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/install.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/AtlasApi.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/rebuild_cache.dir
+/home/pc/work/code_view/whayer_work/sample-objectdetectionbyyolov3/src/cmake-build-debug-atlas200dk/CMakeFiles/list_install_components.dir
